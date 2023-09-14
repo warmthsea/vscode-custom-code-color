@@ -40,18 +40,17 @@
       "properties": {
         "vscodeCustomCodeColor.fileType": {
           "type": "string",
-          "description": "Use file type: .vue.xx.xx",
+          "description": "Use file type.",
           "default": ".vue"
         },
-        "vscodeCustomCodeColor.filterValue": {
-          "type": "array",
-          "description": "Highlight code value",
-          "default": "test"
-        },
-        "vscodeCustomCodeColor.valueColor": {
+        "vscodeCustomCodeColor.highlightValue": {
           "type": "string",
-          "description": "Code value highlight color",
-          "default": "red"
+          "description": "Highlight code value.",
+          "default": "v-role"
+        },
+        "vscodeCustomCodeColor.highlightValueColor": {
+          "type": "string",
+          "default": "#6366f1"
         }
       }
     }

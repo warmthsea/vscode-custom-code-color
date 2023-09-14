@@ -2,10 +2,8 @@ import type { ExtensionContext, TextEditorDecorationType } from 'vscode'
 import * as vscode from 'vscode'
 
 export function activate(context: ExtensionContext) {
-  vscode.window.showInformationMessage('Hello')
-
   const decorationType = vscode.window.createTextEditorDecorationType({
-    color: '#257F80', // 设置颜色
+    color: '#6366f1', // 设置颜色
   })
 
   context.subscriptions.push(
