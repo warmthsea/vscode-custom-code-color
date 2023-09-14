@@ -6,7 +6,7 @@
   "private": true,
   "packageManager": "pnpm@8.6.0",
   "description": "",
-  "author": "Anthony Fu <anthonyfu117@hotmail.com>",
+  "author": "warmthsea <2586244885@qq.com>",
   "license": "MIT",
   "homepage": "https://github.com/warmthsea/vscode-custom-code-color#readme",
   "repository": {
@@ -33,6 +33,29 @@
   "activationEvents": [
     "onStartupFinished"
   ],
+  "contributes": {
+    "configuration": {
+      "type": "object",
+      "title": "Vscode Custom Code Color - Configuration",
+      "properties": {
+        "vscodeCustomCodeColor.fileType": {
+          "type": "string",
+          "description": "Use file type: .vue.xx.xx",
+          "default": ".vue"
+        },
+        "vscodeCustomCodeColor.filterValue": {
+          "type": "array",
+          "description": "Highlight code value",
+          "default": "test"
+        },
+        "vscodeCustomCodeColor.valueColor": {
+          "type": "string",
+          "description": "Code value highlight color",
+          "default": "red"
+        }
+      }
+    }
+  },
   "scripts": {
     "build": "tsup src/index.ts --external vscode",
     "dev": "nr build --watch",
