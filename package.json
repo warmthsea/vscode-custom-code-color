@@ -40,7 +40,7 @@
       "properties": {
         "vscodeCustomCodeColor.fileLanguageIdList": {
           "type": "array",
-          "description": "Use file file languageId list.",
+          "description": "vscodeCustomCodeColor.fileLanguageIdList",
           "default": [
             "vue",
             "typescript"
@@ -48,10 +48,11 @@
         },
         "vscodeCustomCodeColor.highlightValue": {
           "type": "string",
-          "description": "Highlight code value.",
+          "description": "vscodeCustomCodeColor.highlightValue",
           "default": "v-role"
         },
         "vscodeCustomCodeColor.highlightValueColor": {
+          "description": "vscodeCustomCodeColor.highlightValueColor",
           "type": "string",
           "default": "#6366f1"
         }
