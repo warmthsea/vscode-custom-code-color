@@ -38,11 +38,12 @@
       "type": "object",
       "title": "Vscode Custom Code Color - Configuration",
       "properties": {
-        "vscodeCustomCodeColor.fileTypeList": {
+        "vscodeCustomCodeColor.fileLanguageIdList": {
           "type": "array",
-          "description": "Use file type.",
+          "description": "Use file file languageId list.",
           "default": [
-            "vue"
+            "vue",
+            "typescript"
           ]
         },
         "vscodeCustomCodeColor.highlightValue": {

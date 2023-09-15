@@ -1,5 +1,5 @@
 export interface UserSettingType {
-  fileTypeList: string[]
+  fileLanguageIdList: string[]
   highlightValue: string
   highlightValueColor: string
 }

@@ -28,7 +28,7 @@ export function activate(context: vscode.ExtensionContext) {
 
 function isPickFile(editor: vscode.TextEditor) {
   const config = Config.get()
-  return config.fileTypeList.includes(editor.document.languageId)
+  return config.fileLanguageIdList.includes(editor.document.languageId)
 }
 
 function updateDecorations(editor: vscode.TextEditor, decorationType: vscode.TextEditorDecorationType) {
