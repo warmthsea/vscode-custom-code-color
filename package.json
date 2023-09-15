@@ -38,10 +38,10 @@
       "type": "object",
       "title": "Vscode Custom Code Color - Configuration",
       "properties": {
-        "vscodeCustomCodeColor.fileType": {
-          "type": "string",
+        "vscodeCustomCodeColor.fileTypeList": {
+          "type": "array",
           "description": "Use file type.",
-          "default": ".vue"
+          "default": ["vue"]
         },
         "vscodeCustomCodeColor.highlightValue": {
           "type": "string",
