@@ -34,4 +34,4 @@
 
 ## License
 
-[MIT License](./LICENSE)
+[MIT License](./LICENSE) © 2023 [warmthsea](https://github.com/warmthsea)
