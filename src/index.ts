@@ -35,7 +35,15 @@ function updateDecorations(editor: vscode.TextEditor, decorationType: vscode.Tex
   const config = Config.get()
 
   const text = editor.document.getText()
-  const regex = new RegExp(config.highlightValue, 'g')
+  let regex: RegExp
+
+  if (typeof config.highlightValue === 'string') {
+    regex = new RegExp(config.highlightValue, 'g')
+  }
+  else {
+    const patterns = config.highlightValue.map(pattern => `(${pattern})`).join('|')
+    regex = new RegExp(patterns, 'g')
+  }
 
   const ranges = []
   let match

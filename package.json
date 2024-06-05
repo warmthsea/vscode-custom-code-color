@@ -47,7 +47,7 @@
           ]
         },
         "vscodeCustomCodeColor.highlightValue": {
-          "type": "string",
+          "type": ["string", "array"],
           "description": "vscodeCustomCodeColor.highlightValue",
           "default": "v-role"
         },
