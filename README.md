@@ -12,13 +12,13 @@
 
 ### `.vscode/settings.json`
 ``` json
- {
-    "vscodeCustomCodeColor.fileLanguageIdList": [
-        "vue",
-        "typescript",
-    ],
-    "vscodeCustomCodeColor.highlightValue": "v-role",
-    "vscodeCustomCodeColor.highlightValueColor": "#6366f1",
+{
+  "vscodeCustomCodeColor.fileLanguageIdList": [
+    "vue",
+    "typescript"
+  ],
+  "vscodeCustomCodeColor.highlightValue": "v-role",
+  "vscodeCustomCodeColor.highlightValueColor": "#6366f1"
 }
 ```
 **You can customize it, the above is just the default settings.**
@@ -27,7 +27,7 @@
 ``` json
 {
   "recommendations": [
-    "warmthsea.vscode-custom-code-color",
+    "warmthsea.vscode-custom-code-color"
   ]
 }
 ```
