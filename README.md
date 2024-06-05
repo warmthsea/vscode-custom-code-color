@@ -17,7 +17,7 @@
     "vue",
     "typescript"
   ],
-  "vscodeCustomCodeColor.highlightValue": "v-role",
+  "vscodeCustomCodeColor.highlightValue": "v-role", // ["v-role", "v-auth"]
   "vscodeCustomCodeColor.highlightValueColor": "#6366f1"
 }
 ```
